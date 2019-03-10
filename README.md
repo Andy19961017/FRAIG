@@ -1,6 +1,7 @@
 Functionally Reduced And-Inverter Graph (FRAIG)
 ===
 This program is an electronic design automation (EDA) tool that can reduce the size of logical circuits automatically. It can perform the following functions:
+
 1.Parses the logical circuit description file in the AIGER format.
 
 2.Uses hash to detect structurally equivalent signals in a circuit.
