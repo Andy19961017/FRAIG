@@ -17,10 +17,15 @@ Supported Platform:
   
 Ussage:
   For Linux
-  >make linux
-  >make
-  >./fraig
+  '''
+  make linux
+  make
+  ./fraig
+  '''
   For Mac
-  >make mac
-  >make
-  >./fraig
+  '''
+  make mac
+  make
+  ./fraig
+  '''
+  
