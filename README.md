@@ -8,11 +8,11 @@ This program is an electronic design automation (EDA) tool written by C++ that c
 
 For detailed description, please refer to [this](https://github.com/Andy19961017/FRAIG/blob/master/FraigProject.pdf).  
 
-##Supported Platform:  
+## Supported Platform:  
   Linux / Ubuntu 5.4.0-6 ubuntu1~16.04.4  
   Mac / Homebrew GCC 7.2.0  
   
-##Ussage:  
+## Ussage:  
   For Linux
   ```
   make linux
@@ -26,7 +26,7 @@ For detailed description, please refer to [this](https://github.com/Andy19961017
   ./fraig
   ```
   
-##Reference:
+## Reference:
 1.http://fmv.jku.at/aiger/  
 2.http://minisat.se/  
 
