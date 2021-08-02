@@ -1,7 +1,7 @@
 Functionally Reduced And-Inverter Graph (FRAIG)
 ===
 ## Purpose
-This program is an [electronic design automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation) tool written in C++ that can reduce the complexity (i.e., number of logic gates) of [Boolean circuits](https://en.wikipedia.org/wiki/Boolean_circuit) automatically without changing the functionality of the circuit.
+This program is an [electronic design automation (EDA)](https://en.wikipedia.org/wiki/Electronic_design_automation) tool written in C++. It can reduce the complexity (i.e., number of logic gates) of [Boolean circuits](https://en.wikipedia.org/wiki/Boolean_circuit) automatically without changing the functionality of the circuit. In other words, given an existing Boolean circuit, it can build an equivalent circuit with fewer gates.
 
 A trivial example is illustrated in the picture below. In the picture, rectangles are the primary inputs and outputs of the Boolean circuit, semi-ovals are AND gates, the small circle is an inverter, and the lines are the connections between logic gates. By inputting Boolean patterns to the primary inputs (i.e., gate 1, 2, and 3) the primary output (i.e., gate 11) should output Boolean patterns according to the [Boolean function](https://en.wikipedia.org/wiki/Boolean_function) of this circuit. However, if we remove gate 5, 7, 8, 9, and 10, the input-output relation of this circuit (i.e., the ***function*** of this circuit) is unchanged. The purpose of this program is to perform circuit simplification like this (though it can handle much larger and non-trivial cases). In the real world, such optimization can reduce the area, timing, and power consumption of the circuits.
 
